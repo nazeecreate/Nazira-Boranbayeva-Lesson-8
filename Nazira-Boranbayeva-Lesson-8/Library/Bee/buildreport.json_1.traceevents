@@ -1,0 +1,502 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1701099262733408, "dur": 3553960, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099262733423, "dur": 1737, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099262735161, "dur": 46930, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099262782094, "dur": 366685, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099263148780, "dur": 3127276, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099266276058, "dur": 11309, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099266288103, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1701099262909461, "dur": 219876, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099262910721, "dur": 58764, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099263098928, "dur": 10667, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099263109599, "dur": 19721, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099263111510, "dur": 16772, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099263137060, "dur": 1701, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1701099263135981, "dur": 2819, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099266288276, "dur": 284, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701099263207506, "dur":1699, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099263209217, "dur":63, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701099263209298, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701099263209321, "dur":237, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701099263209592, "dur":986, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099263210578, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266247884, "dur":123, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248008, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248023, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248027, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248034, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248036, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248043, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248046, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248053, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248071, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266248095, "dur":2639, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701099263210131, "dur":458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263210592, "dur":6400, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263217005, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701099263217042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263218320, "dur":575, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701099263218902, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701099263218978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263219356, "dur":3075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701099263222433, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1701099263222604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263222870, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1701099263224455, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701099263224618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263224628, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701099263226468, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701099263226630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263227078, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701099263228630, "dur":22861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701099263251496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263251506, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701099263253305, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701099263253466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263253476, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1701099263255684, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701099263255843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263255853, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701099263258205, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701099263258365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263258374, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1701099263261346, "dur":179792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263441143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263441275, "dur":6164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263447503, "dur":22628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263470137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263470429, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263471592, "dur":54350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263525948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263525986, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263527430, "dur":51814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263579249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263579258, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263580708, "dur":162297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263743011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263743021, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263745102, "dur":22297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263767405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263767414, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263768792, "dur":58335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263827133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099263827142, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099263828766, "dur":310573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264139345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264139354, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264141301, "dur":24199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264165505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264165512, "dur":18312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264183887, "dur":61885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264245777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264245787, "dur":10840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264256711, "dur":138919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264395634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264395642, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264397026, "dur":22869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264419899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264419905, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264421446, "dur":41759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264463211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264463221, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264465650, "dur":199137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264664793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264664803, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264666253, "dur":125700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264791959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264791968, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264793385, "dur":3162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264796553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264796563, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264797904, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264798989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264799000, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264800456, "dur":50817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264851278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264851288, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264853734, "dur":1281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264855020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099264855058, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099264856521, "dur":146884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265003411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265003420, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265005800, "dur":255385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265261191, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265261208, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265263198, "dur":150537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265413740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265413750, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265415193, "dur":62460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265477659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265477668, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265479145, "dur":206009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265685160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265685170, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265687185, "dur":161066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265848256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265848266, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265850386, "dur":148371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099265998763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701099265998772, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701099266000916, "dur":246954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263210191, "dur":408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263210599, "dur":6428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263217027, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701099263217215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263219541, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701099263223714, "dur":12064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701099263235782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263235792, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701099263237589, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1701099263237806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263237817, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1701099263240526, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701099263240690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263241096, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701099263243069, "dur":16528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701099263259603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263259614, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1701099263261062, "dur":70685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263331752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263332035, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263333867, "dur":84078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701099263417951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263417958, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701099263419990, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1701099263420171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263420487, "dur":16259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1701099263436814, "dur":92501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263529320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263529330, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263530812, "dur":23227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263554045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263554054, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263555571, "dur":46267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263601844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263601883, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263603455, "dur":34107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263637567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263637577, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263638926, "dur":24458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263663391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263663403, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263664772, "dur":85370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263750148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263750158, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263751588, "dur":44206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263795800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263795810, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263798541, "dur":200154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099263998700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099263998710, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264000685, "dur":23017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264023708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264023717, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264025161, "dur":64990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264090157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264090166, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264091754, "dur":25920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264117679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264117689, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264119238, "dur":46593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264165835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264165841, "dur":17921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264183824, "dur":21700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264205530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264205540, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264207122, "dur":24338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264231465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264231476, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264232822, "dur":27164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264259992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264260001, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264261899, "dur":28789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264290693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264290702, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264292136, "dur":25923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264318065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264318075, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264319695, "dur":29157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264348858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264348867, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264350221, "dur":32655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264382908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264382918, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264384271, "dur":166154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264550430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264550439, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264552723, "dur":142060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264694789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264694798, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264698287, "dur":1126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264699418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264699428, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264701251, "dur":76901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264778158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264778168, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264779925, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264780988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264780998, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264782574, "dur":84080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264866658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264866667, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264868325, "dur":95471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264963801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099264963811, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099264965161, "dur":147776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265112943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099265112982, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265114495, "dur":116799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265231301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099265231310, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265233000, "dur":138587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265371593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099265371602, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265373478, "dur":286282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265659766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099265659775, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265663035, "dur":170087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265833128, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099265833144, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099265835868, "dur":276282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099266112156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701099266112165, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701099266113630, "dur":134238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099263210237, "dur":370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099263210607, "dur":6390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099263217005, "dur":44191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1701099263261202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099263261603, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1701099263263014, "dur":639014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099263902034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099263902041, "dur":14272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099263916372, "dur":134658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264051036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264051045, "dur":38390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264089499, "dur":31489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264120994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264121004, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264122539, "dur":23959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264146504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264146515, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264147999, "dur":44280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264192284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264192293, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264193960, "dur":46097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264240091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264240104, "dur":15761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264256299, "dur":32601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264288905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264288930, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264290258, "dur":23224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264313488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264313499, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264314867, "dur":94815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264409687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264409697, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264411035, "dur":26611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264437653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264437663, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264439132, "dur":21544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264460682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264460691, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264462106, "dur":59843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264521956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264521965, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264523506, "dur":30443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264553954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264553964, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264555300, "dur":127035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264682340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099264682350, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099264684074, "dur":351550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265035629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099265035638, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265037390, "dur":252628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265290024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099265290034, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265292096, "dur":50325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265342426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099265342463, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265343837, "dur":373629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265717471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099265717481, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265721777, "dur":60489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265782272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099265782281, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099265784299, "dur":460173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099266244477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701099266244484, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701099266247850, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1701099266247853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263210271, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263210617, "dur":6411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263217028, "dur":15481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263232515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263232526, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263233874, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701099263234070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263234156, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701099263235835, "dur":11628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263247469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263247479, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263249029, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701099263249181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263249256, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1701099263251087, "dur":13106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263264199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263264210, "dur":14674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099263278944, "dur":180228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1701099263459177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263459186, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1701099263461551, "dur":27684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263489241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263489406, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263491550, "dur":65769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263557324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263557334, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263558667, "dur":38865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263597538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263597548, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263598860, "dur":30681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263629547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263629557, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263631755, "dur":29807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263661568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263661578, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263663314, "dur":25768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263689088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263689097, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263690497, "dur":25182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263715685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263715695, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263717107, "dur":110448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263827641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263827651, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263828988, "dur":24090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263853126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263853136, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263854550, "dur":48664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263903224, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263903240, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263906015, "dur":69201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263975222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099263975231, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099263976999, "dur":55456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264032461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264032471, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264033884, "dur":51209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264085099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264085108, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264089642, "dur":20233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264109881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264109891, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264111322, "dur":20429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264131757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264131766, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264133189, "dur":24674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264157869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264157909, "dur":25387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264183553, "dur":69122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264252680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264252687, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264256608, "dur":44369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264300983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264300993, "dur":6471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264307524, "dur":22635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264330165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264330174, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264331558, "dur":36476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264368039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264368050, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264369609, "dur":25697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264395312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264395322, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264396820, "dur":23057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264419885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264419899, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264421343, "dur":61346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264482695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264482705, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264484055, "dur":54643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264538703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264538713, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264540190, "dur":73553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264613748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264613758, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264615027, "dur":99047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264714080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264714090, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264715688, "dur":41025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264756719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264756729, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264758343, "dur":59076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264817425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264817435, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264819031, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264820122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264820131, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264821444, "dur":43130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264864580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099264864589, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099264866444, "dur":368068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265234517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265234539, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265238399, "dur":54155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265292560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265292569, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265294219, "dur":373563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265667788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265667798, "dur":12947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265680815, "dur":172636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265853457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265853470, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701099265855141, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265855312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265855741, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265857142, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1701099265857199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265857272, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1701099265858768, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265858824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265858832, "dur":6989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265865887, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265865942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265865950, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265868359, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265868528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265868536, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265869819, "dur":8667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265878492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265878500, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1701099265879915, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265879971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265879978, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265882459, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265882610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265882618, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265884070, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265884127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265884135, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1701099265885582, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1701099265885637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265885644, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1701099265887013, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265887076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265887087, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1701099265888598, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1701099265888654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265888662, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1701099265889983, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099265890146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701099265890153, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/BigDream Unity Repos/HW1_Lesson8/Nazira_Boranbayeva_Lesson8_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1701099265891495, "dur":356376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701099266253304, "dur":3352, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1701099266288633, "dur": 745, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701099266288090, "dur": 1309, "ph": "X", "name": "Write chrome-trace events", "args": {} },
